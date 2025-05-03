@@ -110,7 +110,7 @@ If you use this code or model in your research, please cite our preprint:
 ---
 
 ## 📽️ Demo
-▶️ Demo video & images from OR deployment
+▶️ Demo video from OR deployment
 
 ![MOVIE-0001_detect_s](https://github.com/user-attachments/assets/5cdf6cf6-f96a-4d67-8725-94f8adffd689)
 
