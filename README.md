@@ -33,48 +33,70 @@ The system was prospectively tested in the operating room to evaluate feasibilit
 ├── checkpoints(yolo11n.pt)    # Trained model weights
 ├── LICENSE
 └── README.md
+```
 
-💡 Getting Started
-1. Clone the repo
+---
 
+## 💡 Getting Started
+
+### 1. Clone the repo
+
+```bash
 git clone https://github.com/your-username/RealTime-BrainTumor-Detection-YOLO11.git
 cd RealTime-BrainTumor-Detection-YOLO11
+```
 
+### 2. Install dependencies
 
-2. Install dependencies
-
+```bash
 conda create -n yolobrain python=3.10
 conda activate yolobrain
 pip install -r requirements.txt
+```
 
-3. Run real-time inference
+### 3. Run real-time inference
 
+```bash
 python inference_real_time.py
+```
 
-🧪 Model Performance Summary (YOLO11n)
-Metric	Value
-mAP@50	0.94
-mAP@50-95	0.68
-Latency	30.3 ms
-FPS	25.98
-Model size	5.23 MB
-Params	2.59 M
-🧠 About the Project
+---
 
-This work was developed by the GEIBAC Group,
+## 🧪 Model Performance Summary (YOLO11n)
+
+| Metric       | Value    |
+|--------------|----------|
+| mAP@50       | 0.94     |
+| mAP@50-95    | 0.68     |
+| Latency      | 30.3 ms  |
+| FPS          | 25.98    |
+| Model size   | 5.23 MB  |
+| Parameters   | 2.59 M   |
+
+---
+
+## 🧠 About the Project
+
+This work was developed by the [GEIBAC Group](https://geibac.uva.es),  
 Specialized Group in Biomedical Imaging and Computational Analysis at IBioVALL – University of Valladolid.
-🔒 License
 
-This repository is licensed under a non-commercial research-only license.
-See the LICENSE file for terms.
+---
 
-    Contact us for licensing or collaboration requests:
-    📧 scepedac@saludcastillayleon.es
+## 🔒 License
 
-📝 Citation
+This repository is licensed under a **non-commercial research-only license**.  
+See the [`LICENSE`](./LICENSE) file for terms.
+
+> Contact us for licensing or collaboration requests:  
+📧 [scepedac@saludcastillayleon.es](mailto:scepedac@saludcastillayleon.es)
+
+---
+
+## 📝 Citation
 
 If you use this code or model in your research, please cite our preprint:
 
+```bibtex
 @article{Cepeda2025YOLO11,
   title={Real-Time Brain Tumor Detection in Intraoperative Ultrasound Using YOLO11: From Model Training to Deployment in the Operating Room},
   author={Cepeda, Santiago and Esteban-Sinovas, Olga and others},
@@ -82,12 +104,12 @@ If you use this code or model in your research, please cite our preprint:
   note={Under Review},
   year={2025}
 }
+```
 
-📽️ Demo Video and Image
+---
 
+## 📽️ Demo
+![IMG-0004-00004](https://github.com/user-attachments/assets/93b03822-b333-4ba4-bfdd-ad4b47ef8171)
 
-https://github.com/user-attachments/assets/335fdf47-0ff3-4257-a274-80b429b9732c
-
-
-▶️ Demo video from OR deployment 
+▶️ Demo images from OR deployment
 
