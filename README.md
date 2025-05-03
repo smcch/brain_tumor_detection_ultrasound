@@ -102,7 +102,6 @@ If you use this code or model in your research, please cite our preprint:
 @article{Cepeda2025YOLO11,
   title={Real-Time Brain Tumor Detection in Intraoperative Ultrasound Using YOLO11: From Model Training to Deployment in the Operating Room},
   author={Cepeda, Santiago and Esteban-Sinovas, Olga and others},
-  journal={Computers in Biology and Medicine},
   journal={arXiv preprint arXiv:2501.15994},
   year={2025}
 }
