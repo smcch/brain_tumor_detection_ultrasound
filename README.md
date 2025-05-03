@@ -1,8 +1,10 @@
 # 🧠 Real-Time Brain Tumor Detection in Intraoperative Ultrasound
 
-> From Model Training to Deployment in the Operating Room  
-> *Santiago Cepeda, Olga Esteban-Sinovas, et al.*  
-> Published as [arXiv:2501.15994](https://arxiv.org/abs/2501.15994)
+This repository contains the official implementation of the method described in:
+
+**“Real-Time Brain Tumor Detection in Intraoperative Ultrasound Using YOLO11: From Model Training to Deployment in the Operating Room”**  
+Santiago Cepeda, Olga Esteban-Sinovas, et al.  
+📄 Published as [arXiv:2501.15994](https://arxiv.org/abs/2501.15994)
 
 ---
 
