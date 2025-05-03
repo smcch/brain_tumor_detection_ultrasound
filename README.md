@@ -85,7 +85,7 @@ Specialized Group in Biomedical Imaging and Computational Analysis at IBioVALL �
 ## 🔒 License
 
 This repository is licensed under a **non-commercial research-only license**.  
-See the [`LICENSE`](./LICENSE) file for terms.
+See the LICENCE file for terms.
 
 > Contact us for licensing or collaboration requests:  
 📧 [scepedac@saludcastillayleon.es](mailto:scepedac@saludcastillayleon.es)
