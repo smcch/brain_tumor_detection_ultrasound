@@ -1,4 +1,4 @@
-# 🧠 Real-Time Brain Tumor Detection in Intraoperative Ultrasound using YOLO11
+# 🧠 Real-Time Brain Tumor Detection in Intraoperative Ultrasound
 
 > From Model Training to Deployment in the Operating Room  
 > *Santiago Cepeda, Olga Esteban-Sinovas, et al.*  
