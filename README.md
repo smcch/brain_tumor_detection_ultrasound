@@ -59,11 +59,9 @@ pip install -r requirements.txt
 ### 3. Run real-time inference
 🖥️ Setup Example
 
-Connect your ultrasound machine to your computer using a USB video capture card.
-
-Identify the correct camera index (e.g., 2) for the virtual camera.
-
-Place the trained YOLO11 model in the same directory (e.g., detect-n.pt).
+- Connect your ultrasound machine to your computer using a USB video capture card.
+- Identify the correct camera index (e.g., 2) for the virtual camera.
+- Place the trained YOLO11 model in the same directory (e.g., detect-n.pt).
 
 Run the script:
 ```bash
@@ -73,17 +71,14 @@ python inference_real_time.py
 ---
 🎞️ inference_off_line_save.py
 
-Performs offline detection on a recorded ultrasound video. It processes each frame, applies YOLOv8 detection, and saves a new video with overlaid predictions.
+Performs offline detection on a recorded ultrasound video. It processes each frame, applies our trained model, and saves a new video with overlaid predictions.
 
 ✅ Features
 
-Frame-by-frame processing with prediction overlay
-
-Saves annotated video in .mp4 format
-
-GPU acceleration supported
-
-Optional live display during processing
+- Frame-by-frame processing with prediction overlay
+- Saves annotated video in .mp4 format
+- GPU acceleration supported
+- Optional live display during processing
 
 🛠️ Setup
 
