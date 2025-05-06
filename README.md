@@ -3,7 +3,7 @@
 This repository contains the official implementation of the method described in:
 
 **“Real-Time Brain Tumor Detection in Intraoperative Ultrasound Using YOLO11: From Model Training to Deployment in the Operating Room”**  
-Santiago Cepeda, Olga Esteban-Sinovas, et al.  
+Santiago Cepeda, Olga Esteban-Sinovas, Roberto Romero, Vikas Singh, Prakash Shetty, Aliasgar Moiyadi, Ilyess Zemmoura, Giuseppe Roberto Giammalva, Massimiliano Del Bene, Arianna Barbotti, Francesco DiMeco, Timothy R. West, Brian V. Nahed, Ignacio Arrese, Roberto Hornero, Rosario Sarabia
 📄 Published as [arXiv:2501.15994](https://arxiv.org/abs/2501.15994)
 
 ---
