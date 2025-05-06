@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Path to your YOLOv8 model
-model_path = 'detect_n.pt'
+model_path = 'detect_s.pt'
 model = YOLO(model_path)
 
 # Path to the saved video
