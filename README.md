@@ -57,7 +57,15 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run real-time inference
+🖥️ Setup Example
 
+    Connect your ultrasound machine to your computer using a USB video capture card.
+
+    Identify the correct camera index (e.g., 2) for the virtual camera.
+
+    Place the trained YOLO11 model in the same directory (e.g., detect-n.pt).
+
+    Run the script:
 ```bash
 python inference_real_time.py
 ```
