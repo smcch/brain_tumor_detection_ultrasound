@@ -33,7 +33,7 @@ The system was prospectively tested in the operating room to evaluate feasibilit
 📦 RealTime-BrainTumor-Detection-YOLO11
 ├── inference_real_time.py     # Real-time inference script (optimized for OR)
 ├── inference_off_line_save.py # Offline inference from a recorded ultrasound video, saving the results with overlaid predictions
-├── checkpoints(yolo11n.pt)    # Trained model weights
+├── checkpoints(detect_s.pt)    # Trained model weights
 ├── LICENSE
 └── README.md
 ```
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 - Connect your ultrasound machine to your computer using a USB video capture card.
 - Identify the correct camera index (e.g., 2) for the virtual camera.
-- Place the trained YOLO11 model in the same directory (e.g., detect-n.pt).
+- Place the trained YOLO11 model in the same directory (e.g., detect-s.pt).
 
 Run the script:
 ```bash
@@ -92,16 +92,16 @@ Then run:
 python inference_off_line_save.py
 ```
 
-## 🧪 Model Performance Summary (YOLO11n)
+## 🧪 Model Performance Summary (YOLO11s)
 
 | Metric       | Value    |
 |--------------|----------|
-| mAP@50       | 0.94     |
-| mAP@50-95    | 0.68     |
-| Latency      | 30.3 ms  |
-| FPS          | 25.98    |
-| Model size   | 5.23 MB  |
-| Parameters   | 2.59 M   |
+| mAP@50       | 0.95     |
+| mAP@50-95    | 0.65     |
+| Latency      | 24.9 ms  |
+| FPS          | 34.16    |
+| Model size   | 18.3 MB  |
+| Parameters   | 9.43 M   |
 
 ---
 
