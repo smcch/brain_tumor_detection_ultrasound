@@ -6,10 +6,10 @@ model_path = 'detect_n.pt'
 model = YOLO(model_path)
 
 # Path to the saved video
-video_path = r"C:\Users\Santiago\Documents\US_SEGMENTATION\real-time\casos\caso_10\20241218\NEURO18122024_20241218114636.avi"
+video_path = #[your_ultrasound_video_file_here]
 
 # Path to save the processed video
-output_video_path = r"C:\Users\Santiago\Documents\US_SEGMENTATION\real-time\casos\caso_10\20241218\caso-10b_detect_s.avi"
+output_video_path = #[your_output_file_name_here]
 
 # Open the video
 cap = cv2.VideoCapture(video_path)
