@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Path to your YOLOv8 model
-model_path = 'detect-n.pt'
+model_path = 'detect-s.pt'
 model = YOLO(model_path)
 
 # Virtual camera index (2)
