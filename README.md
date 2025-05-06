@@ -32,6 +32,7 @@ The system was prospectively tested in the operating room to evaluate feasibilit
 ```bash
 📦 RealTime-BrainTumor-Detection-YOLO11
 ├── inference_real_time.py     # Real-time inference script (optimized for OR)
+├── inference_off_line_save.py # Offline inference from a recorded ultrasound video, saving the results with overlaid predictions
 ├── checkpoints(yolo11n.pt)    # Trained model weights
 ├── LICENSE
 └── README.md
@@ -70,6 +71,31 @@ python inference_real_time.py
 ```
 
 ---
+🎞️ inference_off_line_save.py
+
+Performs offline detection on a recorded ultrasound video. It processes each frame, applies YOLOv8 detection, and saves a new video with overlaid predictions.
+
+✅ Features
+
+Frame-by-frame processing with prediction overlay
+
+Saves annotated video in .mp4 format
+
+GPU acceleration supported
+
+Optional live display during processing
+
+🛠️ Setup
+
+Edit the script to define:
+```bash
+video_path = 'path/to/your_ultrasound_video.mp4'
+output_video_path = 'path/to/save_annotated_video.mp4'
+```
+Then run:
+```bash
+python inference_off_line_save.py
+```
 
 ## 🧪 Model Performance Summary (YOLO11n)
 
