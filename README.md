@@ -128,11 +128,16 @@ See the LICENCE file for terms.
 If you use this code or model in your research, please cite:
 
 ```bibtex
-@article{Cepeda2025YOLO11,
-  title={Real-Time Brain Tumor Detection in Intraoperative Ultrasound Using YOLO11: From Model Training to Deployment in the Operating Room},
-  author={Cepeda, Santiago and Esteban-Sinovas, Olga and others},
-  journal={arXiv preprint arXiv:2501.15994},
-  year={2025}
+@article{CEPEDA2025110481,
+title = {Real-time brain tumor detection in intraoperative ultrasound: From model training to deployment in the operating room},
+journal = {Computers in Biology and Medicine},
+volume = {193},
+pages = {110481},
+year = {2025},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2025.110481},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482525008327},
+author = {Santiago Cepeda and Olga Esteban-Sinovas and Roberto Romero and Vikas Singh and Prakash Shett and Aliasgar Moiyadi and Ilyess Zemmoura and Giuseppe Roberto Giammalva and Massimiliano {Del Bene} and Arianna Barbotti and Francesco DiMeco and Timothy R. West and Brian V. Nahed and Ignacio Arrese and Roberto Hornero and Rosario Sarabia},
 }
 
 @software{yolo11_ultralytics,
